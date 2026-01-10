@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {   
-    int n,isPrime=0;
+    int n,isPrime=1;
     printf("enter the value which you wants to check prime number or not:\n");
     scanf("%d",&n);
     if(n<=1)
