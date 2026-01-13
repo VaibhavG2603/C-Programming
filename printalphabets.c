@@ -12,6 +12,9 @@ int main()
     printf("%c ",i);
     i++;
    }*/
+  /*for(char i='A';i<='Z';i++)
+    {  printf("%c ",i);
+     }*/
 
     return 0;
 }
