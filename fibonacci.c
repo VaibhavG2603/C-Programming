@@ -9,7 +9,7 @@ int fib_ric(int num)
     }
 }
 
-int fib_itr(int num)
+/*int fib_itr(int num)
 {
     int a=0;
     int b=1;
@@ -20,7 +20,7 @@ int fib_itr(int num)
     }
     return a;
     
-}
+}*/
 
 int main()
 {
@@ -28,8 +28,8 @@ int main()
     printf("Enter the number:\n");
     scanf("%d",&n);
     int s=fib_ric(n);
-    int sc=fib_itr(n);
-    printf("%d\n",sc);
-    printf("%d ",s);
+    //int sc=fib_itr(n);
+    printf("%d\n",s);
+    //printf("%d ",sc);
     return 0;
 }
