@@ -15,14 +15,17 @@ int main(){
             temp=temp/10;
         }
         temp=num;
-
+          if(num==0){
+            digit=1;
+          }
+          else{
         while (temp!=0)
         {
             digit=temp%10;
             sum=sum+pow(digit,digits);
             temp=temp/10;
         }
-
+    }
        if(sum==num){
         printf("%d ",num);
        }
