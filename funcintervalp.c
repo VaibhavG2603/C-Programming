@@ -1,5 +1,5 @@
 # include<stdio.h>
-int interval(int x,int y){
+void interval(int x,int y){
     if(x<2){
         x=2;
     }

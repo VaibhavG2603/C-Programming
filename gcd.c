@@ -12,6 +12,6 @@ int main(){
     printf("Enter a and b:\n");
     scanf("%d %d",&a,&b);
     int gcd=rec_gcd(a,b);
-    printf("%d",gcd);
+    printf("gcd is %d",gcd);
     return 0;
 }
